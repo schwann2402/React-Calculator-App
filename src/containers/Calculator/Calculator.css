@@ -1,0 +1,10 @@
+.display-container {
+ background-color: rgb(234, 218, 188);
+ min-height: 80px;
+ height: 80px;
+ font-size: 20px;
+ text-align: end;
+ padding: 2px;
+ display: flex;
+ flex-direction: column;
+}

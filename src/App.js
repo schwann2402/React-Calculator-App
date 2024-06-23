@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Calculator from './containers/Calculator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor: "rgba(0,0,0,0.2)"}}>
+      <div className="container calculator" style={{width: 400, height: "100vh", paddingTop: 200}}id="calculator">
+          <h1>ReactJs Calculator</h1>
+          <Calculator />
+      </div>
     </div>
-  );
-}
+  )}
 
 export default App;
