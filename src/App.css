@@ -15,9 +15,3 @@ button {
 h1 {
   text-align: center;
 }
-
-.display-container {
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-}
