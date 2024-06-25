@@ -1,4 +1,4 @@
-button {
-  background-color: grey;
-  color: white;
+.equal-button{
+  background-color: orange;
+  border-radius: 20px;
 }

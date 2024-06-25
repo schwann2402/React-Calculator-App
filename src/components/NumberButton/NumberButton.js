@@ -1,9 +1,9 @@
 import './style.css';
 import PropTypes from 'prop-types';
 
-const NumberButton = ({ number, clickNumber }) => {
+const NumberButton = ({ number, clickNumber, id }) => {
     return (
-        <button className="number-button h-100 w-100" onClick={() => clickNumber(number)}>
+        <button id={id} className="number-button h-100 w-100" onClick={() => clickNumber(number)}>
             {number}
         </button> 
     );

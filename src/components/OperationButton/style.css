@@ -1,4 +1,7 @@
 .operation-button {
-  background-color: grey;
-  color: white
+  background-color: rgb(139, 139, 207);
+  color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
 }
